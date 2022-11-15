@@ -6,10 +6,10 @@ local gc = {}
     
     /* -- Данные для подключения к внешней дб, если в gc.datatype есть строка "tmysql" - [ДАННЫЕ ДОЛЖНЫ БЫТЬ ЗАПОЛНЕНЫ ОБЯЗАТЕЛЬНО]  */
     gc.tmysql = {
-        hostname = 'phvservers.ru',
-        username = 'a0230370_shurik',
-        database = 'a0230370_detections', 
-        password = 'F4WuBDW6',
+        hostname = 'hostname',
+        username = 'username',
+        database = 'database', 
+        password = 'password',
         port = 3306 
     }
     
