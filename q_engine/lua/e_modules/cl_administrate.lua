@@ -1,0 +1,5 @@
+net.Receive('gac.client-adminlog', function()
+    local log = net.ReadString() 
+    local time = os.date( "%H:%M:%S" , os.time() )
+    MsgC(color_white,'[',time,']',Color(255,0,0),'[GAC-ADMIN] ',color_white,log,'\n')
+end)
